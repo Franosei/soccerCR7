@@ -16,19 +16,13 @@ knitr::opts_chunk$set(
 # soccerCR7
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/Franosei/soccerCR7/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/Franosei/soccerCR7/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
-The goal of soccerCR7 is to predict football league matches across the world. The final prediction is save as result.txt with the the probability of Away team win, Draw mach and Home  team win
+The goal of soccerCR7 is to predict football league matches across the world. The final prediction is the probability of Away team wining, Draw match and Home team wining. The final resut is save as result.txt in your working directory
 
 ## Installation
 
-You can install the development version of soccerCR7 from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-remotes::install_github("Franosei/soccerCR7")
-```
+You can install the development version of soccerCR7 from GitHub
 
 ## Example
 
@@ -40,6 +34,7 @@ library(leagueCR7)
 library(soccerCR7)
 ```
 
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
 ```{r}
 trainCR7(leagueCR7, leagueCR7, league_name == "Eliteserien")
