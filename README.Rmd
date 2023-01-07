@@ -28,8 +28,9 @@ You can install the development version of soccerCR7 from GitHub
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r example,warning=FALSE,message=FALSE}
 remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
+remotes::install_github("Franosei/soccerCR7")
 library(leagueCR7)
 library(soccerCR7)
 ```

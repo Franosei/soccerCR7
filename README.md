@@ -21,8 +21,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
-#> Skipping install of 'leagueCR7' from a github remote, the SHA1 (5a8e7b1a) has not changed since last install.
-#>   Use `force = TRUE` to force installation
+remotes::install_github("Franosei/soccerCR7")
 library(leagueCR7)
 library(soccerCR7)
 ```
