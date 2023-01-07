@@ -4,6 +4,8 @@
 # soccerCR7
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Franosei/soccerCR7/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/Franosei/soccerCR7/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
 The goal of soccerCR7 is to predict football league matches across the
