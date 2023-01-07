@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# soccerCR7
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of soccerCR7 is to predict football league matches across the world. The final prediction is save as result.txt with the the probability of Away team win, Draw mach and Home  team win
+
+## Installation
+
+You can install the development version of soccerCR7 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+remotes::install_github("Franosei/soccerCR7")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
+library(leagueCR7)
+library(soccerCR7)
+```
+
+
+```{r}
+trainCR7(leagueCR7, leagueCR7, league_name == "Eliteserien")
+```
+
+```{r}
+trainCR7(leagueCR7, leagueCR7, league_name == "Ligue 1")
+```
+

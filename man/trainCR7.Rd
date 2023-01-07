@@ -2,15 +2,29 @@
 % Please edit documentation in R/hello.R
 \name{trainCR7}
 \alias{trainCR7}
-\title{Training Football League Matches Across the World}
+\title{Footbal League Matches Prediction}
 \usage{
-trainCR7(dataset = leagueCR7, condition)
+trainCR7(
+  dataset = leagueCR7::leagueCR7,
+  testdata = leagueCR7::leagueCR7,
+  league = (league_name == "Bundesliga")
+)
 }
 \arguments{
 \item{dataset}{Football leagues dataset: default of leagueCR7::leagueCR7}
 
-\item{condition}{The name of the league}
+\item{testdata}{The new dataset to predict: default of leagueCR7::leagueCR7}
+
+\item{league}{The name of the league}
+}
+\value{
+A predicted Probabilities of League Matches is save as result.xlxs
 }
 \description{
-The package made it available multinomial regresion models that helps you to train footbal league matches from  leagueCR7 dataset. The dataset can be install in R using remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
+Footbal League Matches Prediction
+}
+\examples{
+trainCR7()
+trainCR7(leagueCR7, leagueCR7, league_name == "Eliteserien")
+trainCR7(leagueCR7, leagueCR7, league_name == "Ligue 1")
 }
