@@ -13,15 +13,14 @@ your working directory
 
 ## Installation
 
-You can install the development version of soccerCR7 from GitHub
+You can install the development version of soccerCR7 from GitHub or run
+renv::restore() on your console
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
-remotes::install_github("Franosei/soccerCR7")
 library(leagueCR7)
 library(soccerCR7)
 ```

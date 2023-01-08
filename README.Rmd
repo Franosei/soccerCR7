@@ -22,15 +22,13 @@ The goal of soccerCR7 is to predict football league matches across the world. Th
 
 ## Installation
 
-You can install the development version of soccerCR7 from GitHub
+You can install the development version of soccerCR7 from GitHub or run renv::restore() on your console
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example,warning=FALSE,message=FALSE}
-remotes::install_github("Franosei/Football_dataset_package/leagueCR7")
-remotes::install_github("Franosei/soccerCR7")
 library(leagueCR7)
 library(soccerCR7)
 ```
